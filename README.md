@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # ADB MEMORY LOGGER - Português
 
 Ferramenta para automatizar a tarefa de gerar logs e gráficos do consumo de memória de um aplicativo específico em dispositivos Android por um período determinado.
