@@ -1,4 +1,4 @@
-Inicio: 27/11/2023 18:43:12,22 - App: com.cleversystems.s3panelTv - Intervalo: 10 seg - Duracao: 99999999 min - Log: benchmark-245-2.txt
+Inicio: 27/11/2023 18:43:12,22 - App: com.instagram.android - Intervalo: 10 seg - Duracao: 99999999 min - Log: benchmark-245-2.txt
 27/11/2023 18:43:12,23 155760
 27/11/2023 18:43:23,21 128961
 27/11/2023 18:43:34,13 181770
