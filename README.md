@@ -7,13 +7,14 @@ Para saber mais sobre o ADB: https://developer.android.com/studio/command-line/a
 
 ### Descrição das pastas e arquivos:
 
-- **run.bat**: Arquivo de inicialização do programa, escrito em BATCH.
+- **adb-memory-logger.bat**: Arquivo de inicialização do programa, escrito em BATCH.
 - **/adb**: Pasta onde está o ferramentário ADB, que será utilizado para gerar os códigos.
-- **/graphs**: Local onde as imagens geradas a partir dos logs serão armazenadas em formato PNG.
+- **/charts**: Local onde as imagens geradas a partir dos logs serão armazenadas em formato PNG.
 - **/logs**: Local de armazenamento dos arquivos .txt com os dados dos logs.
-- **/scripts**: Pasta onde se encontra o código, escrito em python, referente à geração dos gráficos.
-  - **create-graph.py**: Código em python que lida com a geração do gráfico.
-  - **create-graph-standalone.bat**: Pode ser utilizado caso já possua algum arquivo .txt com logs e queira apenas gerar um gráfico.
+- **/chart-scripts**: Pasta onde se encontra o código, escrito em python, referente à geração dos gráficos.
+  - **create-chart.py**: Código em python que lida com a geração do gráfico.
+  - **create-chart-standalone.bat**: Pode ser utilizado caso já possua algum arquivo .txt com logs e queira apenas gerar um gráfico.
+  - **check-python-dependencies.bat**: Script utiliado para checar as dependências relacionadas ao Python para a geração dos gráficos.
 
 
 # ADB MEMORY LOGGER - English
@@ -27,8 +28,36 @@ For more information about ADB, refer to the [Android Studio Command Line docume
 
 - **run.bat**: Program initialization file, written in BATCH.
 - **/adb**: Folder containing the ADB toolkit, which will be used to generate codes.
-- **/graphs**: Location where images generated from the logs will be stored in PNG format.
+- **/charts**: Location where images generated from the logs will be stored in PNG format.
 - **/logs**: Storage location for .txt files containing log data.
-- **/scripts**: Folder containing the Python code for generating the charts.
+- **/chart-scripts**: Folder containing the Python code for generating the charts.
   - **create-graph.py**: Python code handling the chart generation.
   - **create-graph-standalone.bat**: Can be used if you already have a .txt file with logs and just want to generate a chart.
+  - **check-python-dependencies.bat**: Script used to check Python dependencies for generating charts.
+
+
+# EXEMPLO DO LOG | LOG EXAMPLES
+
+Inicio: 27/11/2023 18:43:12,22 - App: com.instagram.android - Intervalo: 10 seg - Duracao: 999999min - Log: teste-instagram.txt
+
+27/11/2023 18:43:12,23 155760
+
+27/11/2023 18:43:23,21 128961
+
+27/11/2023 18:43:34,13 181770
+
+27/11/2023 18:43:45,16 182802
+
+27/11/2023 18:43:56,18 178902
+
+27/11/2023 18:44:07,14 178882
+
+27/11/2023 18:44:18,19 174810
+
+27/11/2023 18:44:29,21 174693
+
+...
+
+# EXEMPLOS DE GRÁFICOS | CHART EXAMPLES
+
+![image](https://github.com/gusfonseca21/adb-memory-logger/assets/104652205/7a7831bc-af74-454f-8920-6f662f817a78)
