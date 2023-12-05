@@ -1,0 +1,4 @@
+Inicio: 25/11/2023  0:45:35,89 - App: com.cleversystems.s3panelTv - Intervalo: 3 seg - Duracao: 99999999 min - Log: keyproplogger2.txt
+25/11/2023  0:45:35,90 131474
+25/11/2023  0:45:39,14 131033
+25/11/2023  0:45:43,14 131185
