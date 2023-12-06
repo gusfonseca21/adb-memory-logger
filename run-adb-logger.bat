@@ -4,6 +4,8 @@ TITLE ADB Memory Logger
 setlocal enabledelayedexpansion
 set "currentDirectory=%CD%"
 
+cd ./adb/
+
 echo Checando por dispositivos conectados...
 for /f %%i in ('adb devices') do set /a count+=1
 
