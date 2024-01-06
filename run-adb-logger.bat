@@ -135,7 +135,7 @@ if not exist "%logsDirectoryPath%" (
 
 
     :CREATEGRAPH
-    cd .\chart-scripts\
+    cd ..\chart-scripts\
     choice /c sn /m "Deseja visualizar o grafico com os logs gerados?"
     set "userChoice=!errorlevel!"
 
