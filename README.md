@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # ADB MEMORY LOGGER - Português
 
 Ferramenta para automatizar a tarefa de gerar logs e gráficos do consumo de memória de um aplicativo específico em dispositivos Android por um período determinado.
@@ -27,14 +25,14 @@ For more information about ADB, refer to the [Android Studio Command Line docume
 
 ### Folder and File Descriptions:
 
-- **adb-memory-logger.bat**: Arquivo de inicialização do programa, escrito em BATCH.
-- **/adb**: Pasta onde está o ferramentário ADB, que será utilizado para gerar os códigos.
-- **/charts**: Local onde as imagens geradas a partir dos logs serão armazenadas em formato PNG.
-- **/logs**: Local de armazenamento dos arquivos .txt com os dados dos logs.
-- **/chart-scripts**: Pasta onde se encontra o código, escrito em python, referente à geração dos gráficos.
-  - **create-chart.py**: Código em python que lida com a geração do gráfico.
-  - **create-chart-standalone.bat**: Pode ser utilizado caso já possua algum arquivo .txt com logs e queira apenas gerar um gráfico.
-  - **check-python-dependencies.bat**: Script utiliado para checar as dependências relacionadas ao Python para a geração dos gráficos.
+- **adb-memory-logger.bat**: Initialization file of the program, written in BATCH.
+- **/adb**: Folder where the ADB toolset is located, which will be used to generate codes.
+- **/charts**: Location where images generated from the logs will be stored in PNG format.
+- **/logs**: Storage location for .txt files containing log data.
+- **/chart-scripts**: Folder containing Python code related to chart generation.
+  - **create-chart.py**: Python code handling the chart generation.
+  - **create-chart-standalone.bat**: Can be used if you already have a .txt log file and just want to generate a chart.
+  - **check-python-dependencies.bat**: Script used to check Python dependencies for chart generation.
 
 # EXEMPLO DO LOG | LOG EXAMPLES
 
