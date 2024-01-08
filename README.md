@@ -2,6 +2,8 @@
 
 Ferramenta para automatizar a tarefa de gerar logs e gráficos do consumo de memória de um aplicativo específico em dispositivos Android por um período determinado.
 
+## [Vídeo de demonstração](https://www.youtube.com/watch?v=oGt-YYQF27Y)
+
 Baseado no ADB (Android Debugger Bridge), ferramenta disponibilizada pelo Android Studio para fornecer uma shell onde podemos executar diversos comandos em dispositivos Android conectados localmente.
 Para saber mais sobre o ADB: https://developer.android.com/studio/command-line/adb?hl=pt-br
 
@@ -19,6 +21,8 @@ Para saber mais sobre o ADB: https://developer.android.com/studio/command-line/a
 # ADB MEMORY LOGGER - English
 
 Tool to automate the task of generating logs and charts of memory consumption for a specific application on Android devices over a specified period.
+
+## [Demonstration video](https://www.youtube.com/watch?v=oGt-YYQF27Y)
 
 Based on ADB (Android Debugger Bridge), a tool provided by Android Studio to provide a shell where various commands can be executed on locally connected Android devices.
 For more information about ADB, refer to the [Android Studio Command Line documentation](https://developer.android.com/studio/command-line/adb?hl=en).
